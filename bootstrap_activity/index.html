@@ -1,0 +1,122 @@
+<!--This was made by Ethan Fallurin from STEM243-IT-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website-Fallurin</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background: #f1f1f1;">
+    <!-- Row 1: Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Personal Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://web.facebook.com/ethandavid.fallurin">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Row 2: Banner/Hero Section -->
+    <header class="bg-danger text-white text-center py-5">
+        <div class="container position-relative">
+            <!-- Carousel -->
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="CarouselPhotos/Gaming.jpg" class="d-block w-100" alt="Gaming" style="height: 50vh; object-fit: cover; filter: blur(2px) brightness(0.9);">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="CarouselPhotos/Guitar.jpg" class="d-block w-100" alt="Guitar" style="height: 50vh; object-fit: cover; filter: blur(2px) brightness(0.9);">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="CarouselPhotos/Cooking.jpg" class="d-block w-100" alt="Cooking" style="height: 50vh; object-fit: cover; filter: blur(2px) brightness(0.9);">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="CarouselPhotos/Football.jpg" class="d-block w-100" alt="Football" style="height: 50vh; object-fit: cover; object-position: top; filter: blur(2px) brightness(0.9);">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- Overlay Text -->
+            <div class="position-absolute top-50 start-50 translate-middle text-white">
+                <h1>Welcome to My Personal Website!</h1>
+                <p class="lead">I am Ethan David C. Fallurin, and this is a place where I can show my skills!</p>
+            </div>
+        </div>
+    </header>
+    <div class="container text-center">
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row">
+          <div class="col-md-12">My Current Skills!</div>
+        </div>
+
+    <!-- Row 3: Featured Sections/Skills -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-3">
+                    <h3>⚽</h3>
+                    <p>I like playing Football as it empowers my creativity and mentality; to exercise my body.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>🍳</h3>
+                    <p>I enjoy cooking as it allows me to create delicious meals not only for myself, but to friends and family.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>🎸</h3>
+                    <p>I enjoy playing the guitar as it allows me to express creativity and passion through music.</p>
+                </div>
+                <div class="col-md-3">
+                    <h3>🎮</h3>
+                    <p>I enjoy gaming as it allows me to relax, have fun, and improve my problem-solving skills all the while playing with friends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Row 4: Content Area -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>I am Ethan David C. Fallurin, I like cooking, Playing sports like Football, playing the guitar, and playing games.</p>
+                </div>
+                <div class="col-md-6">
+                    <h2>Portfolio</h2>
+                    <a href="Fallurin_Ethan_Term1_Activity2.docx" class="btn btn-outline-primary" download>Download Ethan's Portfolio</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Row 5: Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <div class="container-fluid">
+            <p>&copy; 2025 My Website. All rights reserved.</p>
+            <p>Follow me on my <a href="https://www.instagram.com/iam_tantantan/" class="text-white">Social Media</a></p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
