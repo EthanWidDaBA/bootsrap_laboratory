@@ -1,0 +1,16 @@
+/* General Body Styles */
+body {
+    background: #f1f1f1;
+}
+
+/* Carousel Image Styles */
+.carousel-item img {
+    height: 50vh;
+    object-fit: cover;
+    filter: blur(2px) brightness(0.9);
+}
+
+/* Football image specific styling */
+.carousel-item:nth-child(4) img {
+    object-position: top;
+}
